@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cover_picker" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Название сбора"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/ic_default_state"
+            android:hint="Название сбора"
+            android:maxLines="1"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сумма"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/ic_default_state"
+            android:hint="Сколько нужно собрать?"
+            android:maxLines="1"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Цель"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/ic_default_state"
+            android:hint="Например, лечение человека"
+            android:maxLines="1"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Описание"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/ic_default_state_big"
+            android:hint="На что пойдут деньги и как они\nкому-то помогут?"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Куда получать деньги"
+            android:layout_marginTop="30dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/ic_container"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button3"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

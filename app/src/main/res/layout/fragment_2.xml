@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="351dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:id="@+id/button_target"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button2_bg" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/icon_target"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:clickable="false"
+                        android:lineSpacingExtra="2sp"
+                        android:text="Целевой сбор"
+                        android:translationX="17sp"
+                        android:translationY="7sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:clickable="false"
+                        android:lineSpacingExtra="2sp"
+                        android:text="Когда есть определённая цель"
+                        android:translationX="17sp"
+                        android:translationY="7sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:clickable="false"
+                    android:src="@drawable/icon_arrow"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="351dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:id="@+id/button_regular"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button2_bg" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/icon_calendar"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:clickable="false"
+                        android:lineSpacingExtra="2sp"
+                        android:text="Регулярный сбор"
+                        android:translationX="17sp"
+                        android:translationY="7sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:clickable="false"
+                        android:lineSpacingExtra="2sp"
+                        android:text="Если помощь нужна ежемесячно"
+                        android:translationX="17sp"
+                        android:translationY="7sp" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:clickable="false"
+                    android:src="@drawable/icon_arrow"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="У Вас пока нет сборов.\nНачните доброе дело."
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp">
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button1"/>
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="101dp"
+                android:layout_height="20dp"
+                android:clickable="false"
+                android:lineSpacingExtra="2sp"
+                android:text="Создать сбор"
+                android:letterSpacing="-0.02"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:translationY="7sp"
+                android:translationX="18sp"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>
